@@ -35,6 +35,8 @@
             this.label2 = new System.Windows.Forms.Label();
             this.btnAktar = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // dtpBaslangic
@@ -54,54 +56,68 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label1.Location = new System.Drawing.Point(21, 32);
+            this.label1.Font = new System.Drawing.Font("Maiandra GD", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(12, 32);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(136, 20);
+            this.label1.Size = new System.Drawing.Size(152, 25);
             this.label1.TabIndex = 2;
             this.label1.Text = "Başlangıç Tarihi";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label2.Location = new System.Drawing.Point(21, 70);
+            this.label2.Font = new System.Drawing.Font("Maiandra GD", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(12, 65);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(93, 20);
+            this.label2.Size = new System.Drawing.Size(107, 25);
             this.label2.TabIndex = 3;
             this.label2.Text = "Bitiş Tarihi";
             // 
             // btnAktar
             // 
-            this.btnAktar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnAktar.BackgroundImage")));
+            this.btnAktar.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.btnAktar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnAktar.Location = new System.Drawing.Point(36, 112);
+            this.btnAktar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnAktar.Image = ((System.Drawing.Image)(resources.GetObject("btnAktar.Image")));
+            this.btnAktar.Location = new System.Drawing.Point(88, 11);
             this.btnAktar.Name = "btnAktar";
-            this.btnAktar.Size = new System.Drawing.Size(94, 71);
+            this.btnAktar.Size = new System.Drawing.Size(105, 57);
             this.btnAktar.TabIndex = 4;
-            this.btnAktar.UseVisualStyleBackColor = true;
+            this.btnAktar.UseVisualStyleBackColor = false;
             this.btnAktar.Click += new System.EventHandler(this.btnAktar_Click);
             // 
             // button1
             // 
-            this.button1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button1.BackgroundImage")));
+            this.button1.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button1.Location = new System.Drawing.Point(161, 112);
+            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
+            this.button1.Location = new System.Drawing.Point(213, 11);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(85, 79);
+            this.button1.Size = new System.Drawing.Size(105, 57);
             this.button1.TabIndex = 10;
             this.button1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.panel1.Controls.Add(this.button1);
+            this.panel1.Controls.Add(this.btnAktar);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel1.Location = new System.Drawing.Point(0, 137);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(405, 71);
+            this.panel1.TabIndex = 11;
             // 
             // frmWordAktar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(405, 208);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.btnAktar);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.dtpBitis);
@@ -109,6 +125,7 @@
             this.Name = "frmWordAktar";
             this.Text = "Excel Aktar";
             this.Load += new System.EventHandler(this.frmWordAktar_Load);
+            this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -122,5 +139,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button btnAktar;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Panel panel1;
     }
 }

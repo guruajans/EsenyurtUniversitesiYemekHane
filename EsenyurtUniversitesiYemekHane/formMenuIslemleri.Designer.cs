@@ -85,7 +85,7 @@
             // 
             this.dtMenuEkle.CustomFormat = "d-m-";
             this.dtMenuEkle.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dtMenuEkle.Location = new System.Drawing.Point(398, 23);
+            this.dtMenuEkle.Location = new System.Drawing.Point(512, 20);
             this.dtMenuEkle.Name = "dtMenuEkle";
             this.dtMenuEkle.Size = new System.Drawing.Size(326, 20);
             this.dtMenuEkle.TabIndex = 1;
@@ -338,7 +338,7 @@
             this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pictureBox4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pictureBox4.ImageLocation = "";
-            this.pictureBox4.Location = new System.Drawing.Point(883, -1);
+            this.pictureBox4.Location = new System.Drawing.Point(1223, -1);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(100, 100);
             this.pictureBox4.TabIndex = 3;
@@ -351,7 +351,7 @@
             this.btnGeriDon.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.btnGeriDon.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.btnGeriDon.ImageLocation = "";
-            this.btnGeriDon.Location = new System.Drawing.Point(584, 3);
+            this.btnGeriDon.Location = new System.Drawing.Point(702, 3);
             this.btnGeriDon.Name = "btnGeriDon";
             this.btnGeriDon.Size = new System.Drawing.Size(100, 100);
             this.btnGeriDon.TabIndex = 2;
@@ -366,7 +366,7 @@
             this.btnMenuEkle.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.btnMenuEkle.Cursor = System.Windows.Forms.Cursors.WaitCursor;
             this.btnMenuEkle.ImageLocation = "";
-            this.btnMenuEkle.Location = new System.Drawing.Point(453, 3);
+            this.btnMenuEkle.Location = new System.Drawing.Point(571, 3);
             this.btnMenuEkle.Name = "btnMenuEkle";
             this.btnMenuEkle.Size = new System.Drawing.Size(100, 100);
             this.btnMenuEkle.TabIndex = 1;
@@ -380,7 +380,7 @@
             this.btnAnaSayfa.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.btnAnaSayfa.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.btnAnaSayfa.ImageLocation = "";
-            this.btnAnaSayfa.Location = new System.Drawing.Point(326, 3);
+            this.btnAnaSayfa.Location = new System.Drawing.Point(444, 3);
             this.btnAnaSayfa.Name = "btnAnaSayfa";
             this.btnAnaSayfa.Size = new System.Drawing.Size(100, 100);
             this.btnAnaSayfa.TabIndex = 0;
@@ -408,7 +408,7 @@
             this.btnMenuOlustur.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.btnMenuOlustur.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.btnMenuOlustur.ImageLocation = "";
-            this.btnMenuOlustur.Location = new System.Drawing.Point(730, 1);
+            this.btnMenuOlustur.Location = new System.Drawing.Point(844, -2);
             this.btnMenuOlustur.Name = "btnMenuOlustur";
             this.btnMenuOlustur.Size = new System.Drawing.Size(100, 61);
             this.btnMenuOlustur.TabIndex = 5;
@@ -420,7 +420,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(210, 24);
+            this.label1.Location = new System.Drawing.Point(324, 21);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(175, 19);
             this.label1.TabIndex = 0;

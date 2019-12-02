@@ -115,6 +115,7 @@
             this.label14 = new System.Windows.Forms.Label();
             this.button7 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.pnlYemekGuncelle.SuspendLayout();
             this.panel1.SuspendLayout();
             this.grpYemekSil.SuspendLayout();
@@ -131,50 +132,60 @@
             this.groupBox1.SuspendLayout();
             this.grpMenu.SuspendLayout();
             this.groupBox3.SuspendLayout();
+            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnYemekEkle
             // 
-            this.btnYemekEkle.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnYemekEkle.BackgroundImage")));
+            this.btnYemekEkle.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.btnYemekEkle.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnYemekEkle.Location = new System.Drawing.Point(152, 12);
+            this.btnYemekEkle.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnYemekEkle.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.btnYemekEkle.Image = ((System.Drawing.Image)(resources.GetObject("btnYemekEkle.Image")));
+            this.btnYemekEkle.Location = new System.Drawing.Point(632, 10);
             this.btnYemekEkle.Name = "btnYemekEkle";
             this.btnYemekEkle.Size = new System.Drawing.Size(120, 70);
             this.btnYemekEkle.TabIndex = 0;
-            this.btnYemekEkle.UseVisualStyleBackColor = true;
+            this.btnYemekEkle.UseVisualStyleBackColor = false;
             this.btnYemekEkle.Click += new System.EventHandler(this.btnYemekEkle_Click);
             // 
             // btnYemekSil
             // 
-            this.btnYemekSil.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnYemekSil.BackgroundImage")));
+            this.btnYemekSil.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.btnYemekSil.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnYemekSil.Location = new System.Drawing.Point(306, 10);
+            this.btnYemekSil.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnYemekSil.Image = ((System.Drawing.Image)(resources.GetObject("btnYemekSil.Image")));
+            this.btnYemekSil.Location = new System.Drawing.Point(758, 10);
             this.btnYemekSil.Name = "btnYemekSil";
             this.btnYemekSil.Size = new System.Drawing.Size(120, 70);
             this.btnYemekSil.TabIndex = 1;
-            this.btnYemekSil.UseVisualStyleBackColor = true;
+            this.btnYemekSil.UseVisualStyleBackColor = false;
             this.btnYemekSil.Click += new System.EventHandler(this.btnYemekSil_Click);
             // 
             // btnAnaSayfa
             // 
-            this.btnAnaSayfa.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnAnaSayfa.BackgroundImage")));
+            this.btnAnaSayfa.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.btnAnaSayfa.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnAnaSayfa.Location = new System.Drawing.Point(12, 12);
+            this.btnAnaSayfa.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnAnaSayfa.Image = ((System.Drawing.Image)(resources.GetObject("btnAnaSayfa.Image")));
+            this.btnAnaSayfa.Location = new System.Drawing.Point(506, 10);
             this.btnAnaSayfa.Name = "btnAnaSayfa";
             this.btnAnaSayfa.Size = new System.Drawing.Size(120, 70);
             this.btnAnaSayfa.TabIndex = 4;
-            this.btnAnaSayfa.UseVisualStyleBackColor = true;
+            this.btnAnaSayfa.UseVisualStyleBackColor = false;
             this.btnAnaSayfa.Click += new System.EventHandler(this.btnAnaSayfa_Click);
             // 
             // btnGeriDon
             // 
-            this.btnGeriDon.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnGeriDon.BackgroundImage")));
+            this.btnGeriDon.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.btnGeriDon.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnGeriDon.Location = new System.Drawing.Point(575, 10);
+            this.btnGeriDon.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnGeriDon.Image = ((System.Drawing.Image)(resources.GetObject("btnGeriDon.Image")));
+            this.btnGeriDon.Location = new System.Drawing.Point(1010, 10);
             this.btnGeriDon.Name = "btnGeriDon";
             this.btnGeriDon.Size = new System.Drawing.Size(120, 70);
             this.btnGeriDon.TabIndex = 5;
-            this.btnGeriDon.UseVisualStyleBackColor = true;
+            this.btnGeriDon.UseVisualStyleBackColor = false;
             this.btnGeriDon.Click += new System.EventHandler(this.btnGeriDon_Click);
             // 
             // pnlYemekGuncelle
@@ -408,7 +419,7 @@
             this.grpYemekEkleme.Controls.Add(this.lblYeEkKalori);
             this.grpYemekEkleme.Controls.Add(this.txtYeEkYemekAdi);
             this.grpYemekEkleme.Controls.Add(this.lblYeEkYemekAdi);
-            this.grpYemekEkleme.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.grpYemekEkleme.Font = new System.Drawing.Font("Maiandra GD", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.grpYemekEkleme.Location = new System.Drawing.Point(3, 3);
             this.grpYemekEkleme.Name = "grpYemekEkleme";
             this.grpYemekEkleme.Size = new System.Drawing.Size(1284, 551);
@@ -422,29 +433,33 @@
             this.blbYeEkYemekHata.AutoSize = true;
             this.blbYeEkYemekHata.Location = new System.Drawing.Point(24, 353);
             this.blbYeEkYemekHata.Name = "blbYeEkYemekHata";
-            this.blbYeEkYemekHata.Size = new System.Drawing.Size(0, 20);
+            this.blbYeEkYemekHata.Size = new System.Drawing.Size(0, 25);
             this.blbYeEkYemekHata.TabIndex = 11;
             // 
             // button1
             // 
-            this.button1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button1.BackgroundImage")));
+            this.button1.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
             this.button1.Location = new System.Drawing.Point(151, 315);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(109, 35);
+            this.button1.Size = new System.Drawing.Size(109, 43);
             this.button1.TabIndex = 12;
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // btnYeEkEkleme
             // 
-            this.btnYeEkEkleme.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnYeEkEkleme.BackgroundImage")));
+            this.btnYeEkEkleme.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.btnYeEkEkleme.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnYeEkEkleme.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnYeEkEkleme.Image = ((System.Drawing.Image)(resources.GetObject("btnYeEkEkleme.Image")));
             this.btnYeEkEkleme.Location = new System.Drawing.Point(16, 315);
             this.btnYeEkEkleme.Name = "btnYeEkEkleme";
-            this.btnYeEkEkleme.Size = new System.Drawing.Size(109, 35);
+            this.btnYeEkEkleme.Size = new System.Drawing.Size(109, 43);
             this.btnYeEkEkleme.TabIndex = 11;
-            this.btnYeEkEkleme.UseVisualStyleBackColor = true;
+            this.btnYeEkEkleme.UseVisualStyleBackColor = false;
             this.btnYeEkEkleme.Click += new System.EventHandler(this.btnYeEkEkleme_Click);
             // 
             // grpYeEkTarifEkleme
@@ -476,32 +491,36 @@
             // 
             // btnTarifSil
             // 
-            this.btnTarifSil.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnTarifSil.BackgroundImage")));
+            this.btnTarifSil.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.btnTarifSil.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnTarifSil.Location = new System.Drawing.Point(468, 504);
+            this.btnTarifSil.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnTarifSil.Image = ((System.Drawing.Image)(resources.GetObject("btnTarifSil.Image")));
+            this.btnTarifSil.Location = new System.Drawing.Point(617, 496);
             this.btnTarifSil.Name = "btnTarifSil";
-            this.btnTarifSil.Size = new System.Drawing.Size(109, 35);
+            this.btnTarifSil.Size = new System.Drawing.Size(109, 44);
             this.btnTarifSil.TabIndex = 18;
-            this.btnTarifSil.UseVisualStyleBackColor = true;
+            this.btnTarifSil.UseVisualStyleBackColor = false;
             this.btnTarifSil.Click += new System.EventHandler(this.btnTarifSil_Click);
             // 
             // btnTarifGuncelle
             // 
-            this.btnTarifGuncelle.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnTarifGuncelle.BackgroundImage")));
+            this.btnTarifGuncelle.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.btnTarifGuncelle.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnTarifGuncelle.Location = new System.Drawing.Point(327, 504);
+            this.btnTarifGuncelle.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnTarifGuncelle.Image = ((System.Drawing.Image)(resources.GetObject("btnTarifGuncelle.Image")));
+            this.btnTarifGuncelle.Location = new System.Drawing.Point(491, 496);
             this.btnTarifGuncelle.Name = "btnTarifGuncelle";
-            this.btnTarifGuncelle.Size = new System.Drawing.Size(120, 36);
+            this.btnTarifGuncelle.Size = new System.Drawing.Size(120, 44);
             this.btnTarifGuncelle.TabIndex = 19;
-            this.btnTarifGuncelle.UseVisualStyleBackColor = true;
+            this.btnTarifGuncelle.UseVisualStyleBackColor = false;
             this.btnTarifGuncelle.Click += new System.EventHandler(this.btnTarifGuncelle_Click);
             // 
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(25, 44);
+            this.label9.Location = new System.Drawing.Point(21, 47);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(76, 20);
+            this.label9.Size = new System.Drawing.Size(89, 25);
             this.label9.TabIndex = 20;
             this.label9.Text = "Kategori";
             // 
@@ -519,7 +538,7 @@
             this.comTarifEkleKategori.FormattingEnabled = true;
             this.comTarifEkleKategori.Location = new System.Drawing.Point(151, 40);
             this.comTarifEkleKategori.Name = "comTarifEkleKategori";
-            this.comTarifEkleKategori.Size = new System.Drawing.Size(222, 28);
+            this.comTarifEkleKategori.Size = new System.Drawing.Size(222, 33);
             this.comTarifEkleKategori.TabIndex = 19;
             this.comTarifEkleKategori.SelectedIndexChanged += new System.EventHandler(this.comTarifEkleKategori_SelectedIndexChanged);
             // 
@@ -528,29 +547,33 @@
             this.lblTarfifEkleHata.AutoSize = true;
             this.lblTarfifEkleHata.Location = new System.Drawing.Point(341, 365);
             this.lblTarfifEkleHata.Name = "lblTarfifEkleHata";
-            this.lblTarfifEkleHata.Size = new System.Drawing.Size(0, 20);
+            this.lblTarfifEkleHata.Size = new System.Drawing.Size(0, 25);
             this.lblTarfifEkleHata.TabIndex = 17;
             // 
             // btnTarifIptal
             // 
-            this.btnTarifIptal.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnTarifIptal.BackgroundImage")));
+            this.btnTarifIptal.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.btnTarifIptal.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnTarifIptal.Location = new System.Drawing.Point(195, 248);
+            this.btnTarifIptal.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnTarifIptal.Image = ((System.Drawing.Image)(resources.GetObject("btnTarifIptal.Image")));
+            this.btnTarifIptal.Location = new System.Drawing.Point(251, 240);
             this.btnTarifIptal.Name = "btnTarifIptal";
-            this.btnTarifIptal.Size = new System.Drawing.Size(109, 35);
+            this.btnTarifIptal.Size = new System.Drawing.Size(122, 47);
             this.btnTarifIptal.TabIndex = 13;
-            this.btnTarifIptal.UseVisualStyleBackColor = true;
+            this.btnTarifIptal.UseVisualStyleBackColor = false;
             this.btnTarifIptal.Click += new System.EventHandler(this.btnTarifIptal_Click);
             // 
             // btnTarfEkleme
             // 
-            this.btnTarfEkleme.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnTarfEkleme.BackgroundImage")));
+            this.btnTarfEkleme.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.btnTarfEkleme.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnTarfEkleme.Location = new System.Drawing.Point(28, 252);
+            this.btnTarfEkleme.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnTarfEkleme.Image = ((System.Drawing.Image)(resources.GetObject("btnTarfEkleme.Image")));
+            this.btnTarfEkleme.Location = new System.Drawing.Point(133, 240);
             this.btnTarfEkleme.Name = "btnTarfEkleme";
-            this.btnTarfEkleme.Size = new System.Drawing.Size(109, 35);
+            this.btnTarfEkleme.Size = new System.Drawing.Size(112, 47);
             this.btnTarfEkleme.TabIndex = 11;
-            this.btnTarfEkleme.UseVisualStyleBackColor = true;
+            this.btnTarfEkleme.UseVisualStyleBackColor = false;
             this.btnTarfEkleme.Click += new System.EventHandler(this.btnTarfEkleme_Click);
             // 
             // pnlTarifEkleMalzeme
@@ -561,7 +584,7 @@
             this.pnlTarifEkleMalzeme.Controls.Add(this.label5);
             this.pnlTarifEkleMalzeme.Location = new System.Drawing.Point(401, 137);
             this.pnlTarifEkleMalzeme.Name = "pnlTarifEkleMalzeme";
-            this.pnlTarifEkleMalzeme.Size = new System.Drawing.Size(325, 96);
+            this.pnlTarifEkleMalzeme.Size = new System.Drawing.Size(325, 146);
             this.pnlTarifEkleMalzeme.TabIndex = 14;
             // 
             // lblTarifEkleHata
@@ -569,25 +592,27 @@
             this.lblTarifEkleHata.AutoSize = true;
             this.lblTarifEkleHata.Location = new System.Drawing.Point(150, 65);
             this.lblTarifEkleHata.Name = "lblTarifEkleHata";
-            this.lblTarifEkleHata.Size = new System.Drawing.Size(0, 20);
+            this.lblTarifEkleHata.Size = new System.Drawing.Size(0, 25);
             this.lblTarifEkleHata.TabIndex = 10;
             // 
             // btnTarifEkleMalzemeEkle
             // 
-            this.btnTarifEkleMalzemeEkle.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnTarifEkleMalzemeEkle.BackgroundImage")));
+            this.btnTarifEkleMalzemeEkle.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.btnTarifEkleMalzemeEkle.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnTarifEkleMalzemeEkle.Location = new System.Drawing.Point(21, 50);
+            this.btnTarifEkleMalzemeEkle.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnTarifEkleMalzemeEkle.Image = ((System.Drawing.Image)(resources.GetObject("btnTarifEkleMalzemeEkle.Image")));
+            this.btnTarifEkleMalzemeEkle.Location = new System.Drawing.Point(203, 65);
             this.btnTarifEkleMalzemeEkle.Name = "btnTarifEkleMalzemeEkle";
             this.btnTarifEkleMalzemeEkle.Size = new System.Drawing.Size(109, 35);
             this.btnTarifEkleMalzemeEkle.TabIndex = 6;
-            this.btnTarifEkleMalzemeEkle.UseVisualStyleBackColor = true;
+            this.btnTarifEkleMalzemeEkle.UseVisualStyleBackColor = false;
             this.btnTarifEkleMalzemeEkle.Click += new System.EventHandler(this.btnTarifEkleMalzemeEkle_Click);
             // 
             // txtTarifEkleMalzemeAdi
             // 
             this.txtTarifEkleMalzemeAdi.Location = new System.Drawing.Point(154, 18);
             this.txtTarifEkleMalzemeAdi.Name = "txtTarifEkleMalzemeAdi";
-            this.txtTarifEkleMalzemeAdi.Size = new System.Drawing.Size(158, 26);
+            this.txtTarifEkleMalzemeAdi.Size = new System.Drawing.Size(158, 33);
             this.txtTarifEkleMalzemeAdi.TabIndex = 9;
             // 
             // label5
@@ -595,16 +620,16 @@
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(19, 21);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(111, 20);
+            this.label5.Size = new System.Drawing.Size(131, 25);
             this.label5.TabIndex = 8;
             this.label5.Text = "Malzeme Adi";
             // 
             // lblTarEkleGramaj
             // 
             this.lblTarEkleGramaj.AutoSize = true;
-            this.lblTarEkleGramaj.Location = new System.Drawing.Point(25, 145);
+            this.lblTarEkleGramaj.Location = new System.Drawing.Point(21, 148);
             this.lblTarEkleGramaj.Name = "lblTarEkleGramaj";
-            this.lblTarEkleGramaj.Size = new System.Drawing.Size(67, 20);
+            this.lblTarEkleGramaj.Size = new System.Drawing.Size(79, 25);
             this.lblTarEkleGramaj.TabIndex = 13;
             this.lblTarEkleGramaj.Text = "Gramaj";
             // 
@@ -612,9 +637,9 @@
             // 
             this.lnkTarifEkleMalzeme.AutoSize = true;
             this.lnkTarifEkleMalzeme.LinkColor = System.Drawing.Color.Black;
-            this.lnkTarifEkleMalzeme.Location = new System.Drawing.Point(397, 112);
+            this.lnkTarifEkleMalzeme.Location = new System.Drawing.Point(497, 109);
             this.lnkTarifEkleMalzeme.Name = "lnkTarifEkleMalzeme";
-            this.lnkTarifEkleMalzeme.Size = new System.Drawing.Size(120, 20);
+            this.lnkTarifEkleMalzeme.Size = new System.Drawing.Size(137, 25);
             this.lnkTarifEkleMalzeme.TabIndex = 13;
             this.lnkTarifEkleMalzeme.TabStop = true;
             this.lnkTarifEkleMalzeme.Text = "Malzeme Ekle";
@@ -624,15 +649,15 @@
             // 
             this.txtTarifEkleMaliyet.Location = new System.Drawing.Point(151, 198);
             this.txtTarifEkleMaliyet.Name = "txtTarifEkleMaliyet";
-            this.txtTarifEkleMaliyet.Size = new System.Drawing.Size(222, 26);
+            this.txtTarifEkleMaliyet.Size = new System.Drawing.Size(222, 33);
             this.txtTarifEkleMaliyet.TabIndex = 16;
             // 
             // lblTarifEkleMalzeme
             // 
             this.lblTarifEkleMalzeme.AutoSize = true;
-            this.lblTarifEkleMalzeme.Location = new System.Drawing.Point(24, 112);
+            this.lblTarifEkleMalzeme.Location = new System.Drawing.Point(20, 115);
             this.lblTarifEkleMalzeme.Name = "lblTarifEkleMalzeme";
-            this.lblTarifEkleMalzeme.Size = new System.Drawing.Size(111, 20);
+            this.lblTarifEkleMalzeme.Size = new System.Drawing.Size(131, 25);
             this.lblTarifEkleMalzeme.TabIndex = 12;
             this.lblTarifEkleMalzeme.Text = "Malzeme Adi";
             this.lblTarifEkleMalzeme.Click += new System.EventHandler(this.lblTarifEkleMalzeme_Click);
@@ -641,15 +666,15 @@
             // 
             this.txtTarEkleGramaj.Location = new System.Drawing.Point(151, 151);
             this.txtTarEkleGramaj.Name = "txtTarEkleGramaj";
-            this.txtTarEkleGramaj.Size = new System.Drawing.Size(222, 26);
+            this.txtTarEkleGramaj.Size = new System.Drawing.Size(222, 33);
             this.txtTarEkleGramaj.TabIndex = 14;
             // 
             // lblTarEkleMaliyet
             // 
             this.lblTarEkleMaliyet.AutoSize = true;
-            this.lblTarEkleMaliyet.Location = new System.Drawing.Point(25, 195);
+            this.lblTarEkleMaliyet.Location = new System.Drawing.Point(21, 198);
             this.lblTarEkleMaliyet.Name = "lblTarEkleMaliyet";
-            this.lblTarEkleMaliyet.Size = new System.Drawing.Size(65, 20);
+            this.lblTarEkleMaliyet.Size = new System.Drawing.Size(80, 25);
             this.lblTarEkleMaliyet.TabIndex = 15;
             this.lblTarEkleMaliyet.Text = "Maliyet";
             // 
@@ -658,16 +683,16 @@
             this.comTarifEkleMalzeme.FormattingEnabled = true;
             this.comTarifEkleMalzeme.Location = new System.Drawing.Point(151, 109);
             this.comTarifEkleMalzeme.Name = "comTarifEkleMalzeme";
-            this.comTarifEkleMalzeme.Size = new System.Drawing.Size(222, 28);
+            this.comTarifEkleMalzeme.Size = new System.Drawing.Size(222, 33);
             this.comTarifEkleMalzeme.TabIndex = 11;
             this.comTarifEkleMalzeme.KeyDown += new System.Windows.Forms.KeyEventHandler(this.comTarifEkleMalzeme_KeyDown);
             // 
             // lblTarifEkleYemekSeçimi
             // 
             this.lblTarifEkleYemekSeçimi.AutoSize = true;
-            this.lblTarifEkleYemekSeçimi.Location = new System.Drawing.Point(24, 77);
+            this.lblTarifEkleYemekSeçimi.Location = new System.Drawing.Point(20, 80);
             this.lblTarifEkleYemekSeçimi.Name = "lblTarifEkleYemekSeçimi";
-            this.lblTarifEkleYemekSeçimi.Size = new System.Drawing.Size(95, 20);
+            this.lblTarifEkleYemekSeçimi.Size = new System.Drawing.Size(110, 25);
             this.lblTarifEkleYemekSeçimi.TabIndex = 7;
             this.lblTarifEkleYemekSeçimi.Text = "Yemek Adi";
             // 
@@ -676,7 +701,7 @@
             this.comTarEkleYemekler.FormattingEnabled = true;
             this.comTarEkleYemekler.Location = new System.Drawing.Point(151, 75);
             this.comTarEkleYemekler.Name = "comTarEkleYemekler";
-            this.comTarEkleYemekler.Size = new System.Drawing.Size(222, 28);
+            this.comTarEkleYemekler.Size = new System.Drawing.Size(222, 33);
             this.comTarEkleYemekler.TabIndex = 6;
             this.comTarEkleYemekler.SelectedIndexChanged += new System.EventHandler(this.comTarEkleYemekler_SelectedIndexChanged);
             this.comTarEkleYemekler.KeyDown += new System.Windows.Forms.KeyEventHandler(this.comTarEkleYemekler_KeyDown);
@@ -689,7 +714,7 @@
             this.pnlYeEkKategori.Controls.Add(this.label2);
             this.pnlYeEkKategori.Location = new System.Drawing.Point(10, 172);
             this.pnlYeEkKategori.Name = "pnlYeEkKategori";
-            this.pnlYeEkKategori.Size = new System.Drawing.Size(418, 96);
+            this.pnlYeEkKategori.Size = new System.Drawing.Size(418, 122);
             this.pnlYeEkKategori.TabIndex = 7;
             // 
             // lblKategoriHata
@@ -697,43 +722,47 @@
             this.lblKategoriHata.AutoSize = true;
             this.lblKategoriHata.Location = new System.Drawing.Point(150, 65);
             this.lblKategoriHata.Name = "lblKategoriHata";
-            this.lblKategoriHata.Size = new System.Drawing.Size(0, 20);
+            this.lblKategoriHata.Size = new System.Drawing.Size(0, 25);
             this.lblKategoriHata.TabIndex = 10;
             // 
             // btnYeEkKategoriEkle
             // 
-            this.btnYeEkKategoriEkle.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnYeEkKategoriEkle.BackgroundImage")));
+            this.btnYeEkKategoriEkle.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.btnYeEkKategoriEkle.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnYeEkKategoriEkle.Location = new System.Drawing.Point(17, 58);
+            this.btnYeEkKategoriEkle.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnYeEkKategoriEkle.Image = ((System.Drawing.Image)(resources.GetObject("btnYeEkKategoriEkle.Image")));
+            this.btnYeEkKategoriEkle.Location = new System.Drawing.Point(267, 65);
             this.btnYeEkKategoriEkle.Name = "btnYeEkKategoriEkle";
-            this.btnYeEkKategoriEkle.Size = new System.Drawing.Size(109, 35);
+            this.btnYeEkKategoriEkle.Size = new System.Drawing.Size(109, 36);
             this.btnYeEkKategoriEkle.TabIndex = 6;
-            this.btnYeEkKategoriEkle.UseVisualStyleBackColor = true;
+            this.btnYeEkKategoriEkle.UseVisualStyleBackColor = false;
             this.btnYeEkKategoriEkle.Click += new System.EventHandler(this.btnYeEkKategoriEkle_Click);
             // 
             // txtYeEkKategori
             // 
             this.txtYeEkKategori.Location = new System.Drawing.Point(154, 21);
             this.txtYeEkKategori.Name = "txtYeEkKategori";
-            this.txtYeEkKategori.Size = new System.Drawing.Size(222, 26);
+            this.txtYeEkKategori.Size = new System.Drawing.Size(222, 33);
             this.txtYeEkKategori.TabIndex = 9;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Maiandra GD", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(19, 21);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(107, 20);
+            this.label2.Size = new System.Drawing.Size(126, 25);
             this.label2.TabIndex = 8;
             this.label2.Text = "Kategori Adi";
             // 
             // lnkYeEkKategori
             // 
             this.lnkYeEkKategori.AutoSize = true;
+            this.lnkYeEkKategori.Font = new System.Drawing.Font("Maiandra GD", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lnkYeEkKategori.LinkColor = System.Drawing.Color.Black;
             this.lnkYeEkKategori.Location = new System.Drawing.Point(372, 132);
             this.lnkYeEkKategori.Name = "lnkYeEkKategori";
-            this.lnkYeEkKategori.Size = new System.Drawing.Size(116, 20);
+            this.lnkYeEkKategori.Size = new System.Drawing.Size(132, 25);
             this.lnkYeEkKategori.TabIndex = 6;
             this.lnkYeEkKategori.TabStop = true;
             this.lnkYeEkKategori.Text = "Kategori Ekle";
@@ -742,9 +771,10 @@
             // lblYeEkKategori
             // 
             this.lblYeEkKategori.AutoSize = true;
+            this.lblYeEkKategori.Font = new System.Drawing.Font("Maiandra GD", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblYeEkKategori.Location = new System.Drawing.Point(18, 137);
             this.lblYeEkKategori.Name = "lblYeEkKategori";
-            this.lblYeEkKategori.Size = new System.Drawing.Size(76, 20);
+            this.lblYeEkKategori.Size = new System.Drawing.Size(89, 25);
             this.lblYeEkKategori.TabIndex = 5;
             this.lblYeEkKategori.Text = "Kategori";
             // 
@@ -753,22 +783,23 @@
             this.comYeEkKategori.FormattingEnabled = true;
             this.comYeEkKategori.Location = new System.Drawing.Point(134, 129);
             this.comYeEkKategori.Name = "comYeEkKategori";
-            this.comYeEkKategori.Size = new System.Drawing.Size(222, 28);
+            this.comYeEkKategori.Size = new System.Drawing.Size(222, 33);
             this.comYeEkKategori.TabIndex = 4;
             // 
             // txtYeEkKaloeri
             // 
             this.txtYeEkKaloeri.Location = new System.Drawing.Point(134, 85);
             this.txtYeEkKaloeri.Name = "txtYeEkKaloeri";
-            this.txtYeEkKaloeri.Size = new System.Drawing.Size(222, 26);
+            this.txtYeEkKaloeri.Size = new System.Drawing.Size(222, 33);
             this.txtYeEkKaloeri.TabIndex = 3;
             // 
             // lblYeEkKalori
             // 
             this.lblYeEkKalori.AutoSize = true;
+            this.lblYeEkKalori.Font = new System.Drawing.Font("Maiandra GD", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblYeEkKalori.Location = new System.Drawing.Point(18, 88);
             this.lblYeEkKalori.Name = "lblYeEkKalori";
-            this.lblYeEkKalori.Size = new System.Drawing.Size(54, 20);
+            this.lblYeEkKalori.Size = new System.Drawing.Size(66, 25);
             this.lblYeEkKalori.TabIndex = 2;
             this.lblYeEkKalori.Text = "Kalori";
             // 
@@ -776,15 +807,16 @@
             // 
             this.txtYeEkYemekAdi.Location = new System.Drawing.Point(134, 32);
             this.txtYeEkYemekAdi.Name = "txtYeEkYemekAdi";
-            this.txtYeEkYemekAdi.Size = new System.Drawing.Size(222, 26);
+            this.txtYeEkYemekAdi.Size = new System.Drawing.Size(222, 33);
             this.txtYeEkYemekAdi.TabIndex = 1;
             // 
             // lblYeEkYemekAdi
             // 
             this.lblYeEkYemekAdi.AutoSize = true;
+            this.lblYeEkYemekAdi.Font = new System.Drawing.Font("Maiandra GD", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblYeEkYemekAdi.Location = new System.Drawing.Point(18, 35);
             this.lblYeEkYemekAdi.Name = "lblYeEkYemekAdi";
-            this.lblYeEkYemekAdi.Size = new System.Drawing.Size(95, 20);
+            this.lblYeEkYemekAdi.Size = new System.Drawing.Size(110, 25);
             this.lblYeEkYemekAdi.TabIndex = 0;
             this.lblYeEkYemekAdi.Text = "Yemek Adi";
             // 
@@ -796,13 +828,15 @@
             // 
             // button4
             // 
-            this.button4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button4.BackgroundImage")));
+            this.button4.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button4.Location = new System.Drawing.Point(445, 12);
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button4.Image = ((System.Drawing.Image)(resources.GetObject("button4.Image")));
+            this.button4.Location = new System.Drawing.Point(884, 10);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(120, 70);
             this.button4.TabIndex = 6;
-            this.button4.UseVisualStyleBackColor = true;
+            this.button4.UseVisualStyleBackColor = false;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // pnlYemekSil
@@ -979,20 +1013,30 @@
             this.button8.TabIndex = 18;
             this.button8.UseVisualStyleBackColor = true;
             // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.panel2.Controls.Add(this.btnYemekEkle);
+            this.panel2.Controls.Add(this.btnYemekSil);
+            this.panel2.Controls.Add(this.btnAnaSayfa);
+            this.panel2.Controls.Add(this.btnGeriDon);
+            this.panel2.Controls.Add(this.button4);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel2.Location = new System.Drawing.Point(0, 0);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(1276, 100);
+            this.panel2.TabIndex = 21;
+            // 
             // YemekIslemleri
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1362, 694);
+            this.ClientSize = new System.Drawing.Size(1276, 675);
             this.Controls.Add(this.pnlYemekEkleme);
             this.Controls.Add(this.pnlYemeklerAnaMenu);
             this.Controls.Add(this.pnlYemekSil);
             this.Controls.Add(this.pnlYemekGuncelle);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.btnGeriDon);
-            this.Controls.Add(this.btnAnaSayfa);
-            this.Controls.Add(this.btnYemekSil);
-            this.Controls.Add(this.btnYemekEkle);
+            this.Controls.Add(this.panel2);
             this.Name = "YemekIslemleri";
             this.Text = "Yemekhane işlemleri";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
@@ -1025,6 +1069,7 @@
             this.grpMenu.PerformLayout();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
+            this.panel2.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -1116,5 +1161,6 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Label lblYemekGunHata;
+        private System.Windows.Forms.Panel panel2;
     }
 }
