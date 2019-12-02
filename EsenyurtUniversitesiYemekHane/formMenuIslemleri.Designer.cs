@@ -119,6 +119,7 @@
             this.flwMenu.Name = "flwMenu";
             this.flwMenu.Size = new System.Drawing.Size(1227, 524);
             this.flwMenu.TabIndex = 1;
+            this.flwMenu.Paint += new System.Windows.Forms.PaintEventHandler(this.flwMenu_Paint);
             // 
             // label2
             // 

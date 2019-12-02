@@ -214,9 +214,9 @@
             this.grpYemekSil.Controls.Add(this.label4);
             this.grpYemekSil.Controls.Add(this.btnYemekGuncelleSil);
             this.grpYemekSil.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.grpYemekSil.Location = new System.Drawing.Point(6, 8);
+            this.grpYemekSil.Location = new System.Drawing.Point(8, 3);
             this.grpYemekSil.Name = "grpYemekSil";
-            this.grpYemekSil.Size = new System.Drawing.Size(1294, 551);
+            this.grpYemekSil.Size = new System.Drawing.Size(1303, 590);
             this.grpYemekSil.TabIndex = 0;
             this.grpYemekSil.TabStop = false;
             this.grpYemekSil.Text = "Yemek Sil";
@@ -259,8 +259,8 @@
             // 
             // btnYemekGuncelleSil
             // 
-            this.btnYemekGuncelleSil.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnYemekGuncelleSil.BackgroundImage")));
             this.btnYemekGuncelleSil.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnYemekGuncelleSil.Image = ((System.Drawing.Image)(resources.GetObject("btnYemekGuncelleSil.Image")));
             this.btnYemekGuncelleSil.Location = new System.Drawing.Point(48, 282);
             this.btnYemekGuncelleSil.Name = "btnYemekGuncelleSil";
             this.btnYemekGuncelleSil.Size = new System.Drawing.Size(109, 35);
@@ -292,9 +292,9 @@
             // 
             this.pnlYemeklerAnaMenu.Controls.Add(this.grpEnSonYemek);
             this.pnlYemeklerAnaMenu.Controls.Add(this.grpIstatislik);
-            this.pnlYemeklerAnaMenu.Location = new System.Drawing.Point(12, 88);
+            this.pnlYemeklerAnaMenu.Location = new System.Drawing.Point(0, 89);
             this.pnlYemeklerAnaMenu.Name = "pnlYemeklerAnaMenu";
-            this.pnlYemeklerAnaMenu.Size = new System.Drawing.Size(1306, 582);
+            this.pnlYemeklerAnaMenu.Size = new System.Drawing.Size(1356, 581);
             this.pnlYemeklerAnaMenu.TabIndex = 3;
             // 
             // grpEnSonYemek
@@ -304,9 +304,9 @@
             this.grpEnSonYemek.Controls.Add(this.lblYemekEnSonYemek);
             this.grpEnSonYemek.Controls.Add(this.lstYemekler);
             this.grpEnSonYemek.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.grpEnSonYemek.Location = new System.Drawing.Point(6, 117);
+            this.grpEnSonYemek.Location = new System.Drawing.Point(4, 3);
             this.grpEnSonYemek.Name = "grpEnSonYemek";
-            this.grpEnSonYemek.Size = new System.Drawing.Size(1167, 373);
+            this.grpEnSonYemek.Size = new System.Drawing.Size(1331, 487);
             this.grpEnSonYemek.TabIndex = 1;
             this.grpEnSonYemek.TabStop = false;
             this.grpEnSonYemek.Text = "En Son Yemek Girişi";
@@ -321,13 +321,14 @@
             // 
             // btnListviewSil
             // 
-            this.btnListviewSil.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnListviewSil.BackgroundImage")));
+            this.btnListviewSil.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.btnListviewSil.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnListviewSil.Image = ((System.Drawing.Image)(resources.GetObject("btnListviewSil.Image")));
             this.btnListviewSil.Location = new System.Drawing.Point(864, 315);
             this.btnListviewSil.Name = "btnListviewSil";
             this.btnListviewSil.Size = new System.Drawing.Size(120, 39);
             this.btnListviewSil.TabIndex = 6;
-            this.btnListviewSil.UseVisualStyleBackColor = true;
+            this.btnListviewSil.UseVisualStyleBackColor = false;
             this.btnListviewSil.Click += new System.EventHandler(this.btnListviewSil_Click);
             // 
             // lblYemekEnSonYemek
@@ -400,9 +401,9 @@
             // pnlYemekEkleme
             // 
             this.pnlYemekEkleme.Controls.Add(this.grpYemekEkleme);
-            this.pnlYemekEkleme.Location = new System.Drawing.Point(9, 91);
+            this.pnlYemekEkleme.Location = new System.Drawing.Point(3, 92);
             this.pnlYemekEkleme.Name = "pnlYemekEkleme";
-            this.pnlYemekEkleme.Size = new System.Drawing.Size(1326, 591);
+            this.pnlYemekEkleme.Size = new System.Drawing.Size(1353, 590);
             this.pnlYemekEkleme.TabIndex = 5;
             // 
             // grpYemekEkleme
@@ -420,9 +421,9 @@
             this.grpYemekEkleme.Controls.Add(this.txtYeEkYemekAdi);
             this.grpYemekEkleme.Controls.Add(this.lblYeEkYemekAdi);
             this.grpYemekEkleme.Font = new System.Drawing.Font("Maiandra GD", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.grpYemekEkleme.Location = new System.Drawing.Point(3, 3);
+            this.grpYemekEkleme.Location = new System.Drawing.Point(3, 27);
             this.grpYemekEkleme.Name = "grpYemekEkleme";
-            this.grpYemekEkleme.Size = new System.Drawing.Size(1284, 551);
+            this.grpYemekEkleme.Size = new System.Drawing.Size(1323, 527);
             this.grpYemekEkleme.TabIndex = 0;
             this.grpYemekEkleme.TabStop = false;
             this.grpYemekEkleme.Text = "Yemek Ekleme";
@@ -495,7 +496,7 @@
             this.btnTarifSil.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnTarifSil.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnTarifSil.Image = ((System.Drawing.Image)(resources.GetObject("btnTarifSil.Image")));
-            this.btnTarifSil.Location = new System.Drawing.Point(617, 496);
+            this.btnTarifSil.Location = new System.Drawing.Point(617, 477);
             this.btnTarifSil.Name = "btnTarifSil";
             this.btnTarifSil.Size = new System.Drawing.Size(109, 44);
             this.btnTarifSil.TabIndex = 18;
@@ -508,7 +509,7 @@
             this.btnTarifGuncelle.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnTarifGuncelle.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnTarifGuncelle.Image = ((System.Drawing.Image)(resources.GetObject("btnTarifGuncelle.Image")));
-            this.btnTarifGuncelle.Location = new System.Drawing.Point(491, 496);
+            this.btnTarifGuncelle.Location = new System.Drawing.Point(491, 474);
             this.btnTarifGuncelle.Name = "btnTarifGuncelle";
             this.btnTarifGuncelle.Size = new System.Drawing.Size(120, 44);
             this.btnTarifGuncelle.TabIndex = 19;
@@ -527,7 +528,7 @@
             // lstTarifEkle
             // 
             this.lstTarifEkle.HideSelection = false;
-            this.lstTarifEkle.Location = new System.Drawing.Point(17, 312);
+            this.lstTarifEkle.Location = new System.Drawing.Point(17, 293);
             this.lstTarifEkle.Name = "lstTarifEkle";
             this.lstTarifEkle.Size = new System.Drawing.Size(709, 181);
             this.lstTarifEkle.TabIndex = 18;
@@ -844,9 +845,9 @@
             this.pnlYemekSil.Controls.Add(this.groupBox1);
             this.pnlYemekSil.Controls.Add(this.button7);
             this.pnlYemekSil.Controls.Add(this.button8);
-            this.pnlYemekSil.Location = new System.Drawing.Point(1, 86);
+            this.pnlYemekSil.Location = new System.Drawing.Point(97, 119);
             this.pnlYemekSil.Name = "pnlYemekSil";
-            this.pnlYemekSil.Size = new System.Drawing.Size(1349, 538);
+            this.pnlYemekSil.Size = new System.Drawing.Size(1262, 505);
             this.pnlYemekSil.TabIndex = 20;
             // 
             // groupBox1
@@ -856,9 +857,9 @@
             this.groupBox1.Controls.Add(this.groupBox3);
             this.groupBox1.Controls.Add(this.label14);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.groupBox1.Location = new System.Drawing.Point(6, 8);
+            this.groupBox1.Location = new System.Drawing.Point(68, 20);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(1314, 551);
+            this.groupBox1.Size = new System.Drawing.Size(1252, 539);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Yemek Ara";
@@ -939,8 +940,8 @@
             // 
             // btnGuncelle
             // 
-            this.btnGuncelle.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnGuncelle.BackgroundImage")));
             this.btnGuncelle.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnGuncelle.Image = ((System.Drawing.Image)(resources.GetObject("btnGuncelle.Image")));
             this.btnGuncelle.Location = new System.Drawing.Point(26, 182);
             this.btnGuncelle.Name = "btnGuncelle";
             this.btnGuncelle.Size = new System.Drawing.Size(109, 35);
@@ -1024,14 +1025,14 @@
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1276, 100);
+            this.panel2.Size = new System.Drawing.Size(1362, 100);
             this.panel2.TabIndex = 21;
             // 
             // YemekIslemleri
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1276, 675);
+            this.ClientSize = new System.Drawing.Size(1362, 694);
             this.Controls.Add(this.pnlYemekEkleme);
             this.Controls.Add(this.pnlYemeklerAnaMenu);
             this.Controls.Add(this.pnlYemekSil);

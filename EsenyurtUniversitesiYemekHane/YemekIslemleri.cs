@@ -973,12 +973,5 @@ namespace EsenyurtUniversitesiYemekHane
 
             }
         }
-
-     
-
-
-     
-    
-
     }
 }
