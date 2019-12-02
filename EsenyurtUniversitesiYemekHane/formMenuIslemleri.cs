@@ -571,10 +571,5 @@ namespace EsenyurtUniversitesiYemekHane
 
             }
         }
-
-        private void flwMenu_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
     }
 }

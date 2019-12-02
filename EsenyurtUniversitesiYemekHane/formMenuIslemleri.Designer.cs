@@ -61,6 +61,8 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.btnMenuOlustur = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
             this.grpMenu.SuspendLayout();
             this.grpAnaMenu.SuspendLayout();
             this.grpMenuEkle.SuspendLayout();
@@ -119,7 +121,6 @@
             this.flwMenu.Name = "flwMenu";
             this.flwMenu.Size = new System.Drawing.Size(1227, 524);
             this.flwMenu.TabIndex = 1;
-            this.flwMenu.Paint += new System.Windows.Forms.PaintEventHandler(this.flwMenu_Paint);
             // 
             // label2
             // 
@@ -309,6 +310,8 @@
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel1.Controls.Add(this.label5);
+            this.panel1.Controls.Add(this.label4);
             this.panel1.Controls.Add(this.pictureBox5);
             this.panel1.Controls.Add(this.pictureBox4);
             this.panel1.Controls.Add(this.btnGeriDon);
@@ -367,7 +370,7 @@
             this.btnMenuEkle.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.btnMenuEkle.Cursor = System.Windows.Forms.Cursors.WaitCursor;
             this.btnMenuEkle.ImageLocation = "";
-            this.btnMenuEkle.Location = new System.Drawing.Point(571, 3);
+            this.btnMenuEkle.Location = new System.Drawing.Point(584, 3);
             this.btnMenuEkle.Name = "btnMenuEkle";
             this.btnMenuEkle.Size = new System.Drawing.Size(100, 100);
             this.btnMenuEkle.TabIndex = 1;
@@ -427,6 +430,24 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Menü için tarih seçin";
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(468, 74);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(51, 13);
+            this.label4.TabIndex = 5;
+            this.label4.Text = "Anasayfa";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(604, 74);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(57, 13);
+            this.label5.TabIndex = 6;
+            this.label5.Text = "Menü ekle";
+            // 
             // formMenuIslemleri
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -454,6 +475,7 @@
             this.panel3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.btnMenuYemek)).EndInit();
             this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnGeriDon)).EndInit();
@@ -499,5 +521,7 @@
         private System.Windows.Forms.PictureBox btnMenuYemek;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label4;
     }
 }

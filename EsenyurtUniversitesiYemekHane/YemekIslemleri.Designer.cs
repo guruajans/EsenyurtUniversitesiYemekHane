@@ -146,6 +146,9 @@
             this.btnYemekEkle.Name = "btnYemekEkle";
             this.btnYemekEkle.Size = new System.Drawing.Size(120, 70);
             this.btnYemekEkle.TabIndex = 0;
+            this.btnYemekEkle.Text = "Yemek ekle";
+            this.btnYemekEkle.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnYemekEkle.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnYemekEkle.UseVisualStyleBackColor = false;
             this.btnYemekEkle.Click += new System.EventHandler(this.btnYemekEkle_Click);
             // 
@@ -159,6 +162,8 @@
             this.btnYemekSil.Name = "btnYemekSil";
             this.btnYemekSil.Size = new System.Drawing.Size(120, 70);
             this.btnYemekSil.TabIndex = 1;
+            this.btnYemekSil.Text = "Yemek Sil";
+            this.btnYemekSil.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnYemekSil.UseVisualStyleBackColor = false;
             this.btnYemekSil.Click += new System.EventHandler(this.btnYemekSil_Click);
             // 
@@ -168,10 +173,13 @@
             this.btnAnaSayfa.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnAnaSayfa.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnAnaSayfa.Image = ((System.Drawing.Image)(resources.GetObject("btnAnaSayfa.Image")));
+            this.btnAnaSayfa.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnAnaSayfa.Location = new System.Drawing.Point(506, 10);
             this.btnAnaSayfa.Name = "btnAnaSayfa";
             this.btnAnaSayfa.Size = new System.Drawing.Size(120, 70);
             this.btnAnaSayfa.TabIndex = 4;
+            this.btnAnaSayfa.Text = "Anasayfa";
+            this.btnAnaSayfa.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnAnaSayfa.UseVisualStyleBackColor = false;
             this.btnAnaSayfa.Click += new System.EventHandler(this.btnAnaSayfa_Click);
             // 
@@ -185,6 +193,8 @@
             this.btnGeriDon.Name = "btnGeriDon";
             this.btnGeriDon.Size = new System.Drawing.Size(120, 70);
             this.btnGeriDon.TabIndex = 5;
+            this.btnGeriDon.Text = "Geri dön";
+            this.btnGeriDon.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnGeriDon.UseVisualStyleBackColor = false;
             this.btnGeriDon.Click += new System.EventHandler(this.btnGeriDon_Click);
             // 
@@ -443,10 +453,12 @@
             this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.Location = new System.Drawing.Point(151, 315);
+            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button1.Location = new System.Drawing.Point(201, 315);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(109, 43);
+            this.button1.Size = new System.Drawing.Size(166, 43);
             this.button1.TabIndex = 12;
+            this.button1.Text = "Temizle";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -456,10 +468,12 @@
             this.btnYeEkEkleme.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnYeEkEkleme.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnYeEkEkleme.Image = ((System.Drawing.Image)(resources.GetObject("btnYeEkEkleme.Image")));
+            this.btnYeEkEkleme.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnYeEkEkleme.Location = new System.Drawing.Point(16, 315);
             this.btnYeEkEkleme.Name = "btnYeEkEkleme";
-            this.btnYeEkEkleme.Size = new System.Drawing.Size(109, 43);
+            this.btnYeEkEkleme.Size = new System.Drawing.Size(179, 43);
             this.btnYeEkEkleme.TabIndex = 11;
+            this.btnYeEkEkleme.Text = "Yemek ekle";
             this.btnYeEkEkleme.UseVisualStyleBackColor = false;
             this.btnYeEkEkleme.Click += new System.EventHandler(this.btnYeEkEkleme_Click);
             // 
@@ -496,10 +510,13 @@
             this.btnTarifSil.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnTarifSil.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnTarifSil.Image = ((System.Drawing.Image)(resources.GetObject("btnTarifSil.Image")));
-            this.btnTarifSil.Location = new System.Drawing.Point(617, 477);
+            this.btnTarifSil.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnTarifSil.Location = new System.Drawing.Point(596, 472);
             this.btnTarifSil.Name = "btnTarifSil";
-            this.btnTarifSil.Size = new System.Drawing.Size(109, 44);
+            this.btnTarifSil.Size = new System.Drawing.Size(130, 44);
             this.btnTarifSil.TabIndex = 18;
+            this.btnTarifSil.Text = "Tarif sil";
+            this.btnTarifSil.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnTarifSil.UseVisualStyleBackColor = false;
             this.btnTarifSil.Click += new System.EventHandler(this.btnTarifSil_Click);
             // 
@@ -509,10 +526,13 @@
             this.btnTarifGuncelle.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnTarifGuncelle.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnTarifGuncelle.Image = ((System.Drawing.Image)(resources.GetObject("btnTarifGuncelle.Image")));
-            this.btnTarifGuncelle.Location = new System.Drawing.Point(491, 474);
+            this.btnTarifGuncelle.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnTarifGuncelle.Location = new System.Drawing.Point(373, 472);
             this.btnTarifGuncelle.Name = "btnTarifGuncelle";
-            this.btnTarifGuncelle.Size = new System.Drawing.Size(120, 44);
+            this.btnTarifGuncelle.Size = new System.Drawing.Size(210, 44);
             this.btnTarifGuncelle.TabIndex = 19;
+            this.btnTarifGuncelle.Text = "Tarif güncelle";
+            this.btnTarifGuncelle.UseMnemonic = false;
             this.btnTarifGuncelle.UseVisualStyleBackColor = false;
             this.btnTarifGuncelle.Click += new System.EventHandler(this.btnTarifGuncelle_Click);
             // 
@@ -570,10 +590,13 @@
             this.btnTarfEkleme.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnTarfEkleme.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnTarfEkleme.Image = ((System.Drawing.Image)(resources.GetObject("btnTarfEkleme.Image")));
-            this.btnTarfEkleme.Location = new System.Drawing.Point(133, 240);
+            this.btnTarfEkleme.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnTarfEkleme.Location = new System.Drawing.Point(110, 240);
             this.btnTarfEkleme.Name = "btnTarfEkleme";
-            this.btnTarfEkleme.Size = new System.Drawing.Size(112, 47);
+            this.btnTarfEkleme.Size = new System.Drawing.Size(135, 47);
             this.btnTarfEkleme.TabIndex = 11;
+            this.btnTarfEkleme.Text = "Tarif ekle";
+            this.btnTarfEkleme.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnTarfEkleme.UseVisualStyleBackColor = false;
             this.btnTarfEkleme.Click += new System.EventHandler(this.btnTarfEkleme_Click);
             // 
@@ -713,7 +736,7 @@
             this.pnlYeEkKategori.Controls.Add(this.btnYeEkKategoriEkle);
             this.pnlYeEkKategori.Controls.Add(this.txtYeEkKategori);
             this.pnlYeEkKategori.Controls.Add(this.label2);
-            this.pnlYeEkKategori.Location = new System.Drawing.Point(10, 172);
+            this.pnlYeEkKategori.Location = new System.Drawing.Point(8, 186);
             this.pnlYeEkKategori.Name = "pnlYeEkKategori";
             this.pnlYeEkKategori.Size = new System.Drawing.Size(418, 122);
             this.pnlYeEkKategori.TabIndex = 7;
@@ -761,7 +784,7 @@
             this.lnkYeEkKategori.AutoSize = true;
             this.lnkYeEkKategori.Font = new System.Drawing.Font("Maiandra GD", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lnkYeEkKategori.LinkColor = System.Drawing.Color.Black;
-            this.lnkYeEkKategori.Location = new System.Drawing.Point(372, 132);
+            this.lnkYeEkKategori.Location = new System.Drawing.Point(294, 162);
             this.lnkYeEkKategori.Name = "lnkYeEkKategori";
             this.lnkYeEkKategori.Size = new System.Drawing.Size(132, 25);
             this.lnkYeEkKategori.TabIndex = 6;
@@ -837,6 +860,8 @@
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(120, 70);
             this.button4.TabIndex = 6;
+            this.button4.Text = "Yemek ara";
+            this.button4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button4.UseVisualStyleBackColor = false;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
